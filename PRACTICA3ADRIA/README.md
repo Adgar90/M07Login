@@ -1,3 +1,5 @@
+## PRÀCTICA 3 - ALTA USUARI AMB PHP I MYSQL
+
 #### FEINA INDIVIDUAL / GRUPAL
 
 ###### ACTIVITAT
@@ -19,3 +21,8 @@ Dades alumnat/professorat que han d’estar al formulari:
 **(La part de frontend no ha de ser complexa. Es recomana utilitzar una plantilla de <u>[getbootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/))</u>**
 
 **RESPOSTA EXECUCIÓ**
+
+![image.png](img/EmptyBD.png)
+![image.png](img/DadesForm.png)
+![image.png](img/InsertOK.png.png)
+![image.png](img/DadesBBD.png)
