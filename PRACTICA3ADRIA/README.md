@@ -24,5 +24,5 @@ Dades alumnat/professorat que han d’estar al formulari:
 
 ![image.png](img/EmptyBD.png)
 ![image.png](img/DadesForm.png)
-![image.png](img/InsertOK.png.png)
+![image.png](img/InsertOK.png)
 ![image.png](img/DadesBBD.png)
