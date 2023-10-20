@@ -6,9 +6,9 @@
     <title>Iniciar sessió</title>
 </head>
 <body>
-    <form action="../iniciar_sessio/userLogin.php" method="POST"></form>
+
     <h1> Iniciar sessió de l'usuari </h1>
-    <form action="userLogin.php" method="POST">
+    <form action="usuari.php" method="POST"> <!-- obrim formulari i passem el mètoda donat, post perque estem fent ús de dades sensibles-->
     <div>
         <label>Email</label>
         <input type="text" name="email" placeholder="Introdueix el teu e-mail" required>
@@ -24,5 +24,9 @@
     <div>
         <button type="submit" name="send">Enviar</button>
     </div>
+    <div>
+        <a href="index.html"> Crear usuari </a>
+    </div>
+    </form>
 </body>
 </html>
