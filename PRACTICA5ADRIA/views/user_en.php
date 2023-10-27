@@ -12,7 +12,7 @@
             }
             
         } else {
-            echo "<p><strong>soc un alumne<br>";
+            echo "<p><strong>i'm a student<br>";
             echo "name: ".$user["name"]."<br>";
             echo "surname: ".$user["surname"]."<br>";
             echo "email: ".$user["email"]."</strong></p>";
