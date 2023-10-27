@@ -14,3 +14,5 @@ Cal crear 3 arxius en php:
 Per tant, tot el circuit de la pràctica anterior (login i formulari) caldrà fer-lo igual, però mostrant el login, formulari i les dades d’alumnat / professorat segons l’idioma escollit previament.
 
 En el video no caldrà mostrar la inserció de dades a la BBDD, sino el funcionament de les cookies en totes les views del repositori.
+
+[video_practica_5](https://drive.google.com/file/d/1gosVpMh3dOgzzqqI1YNDSOZTWvYEEdrt/view?usp=sharing)
