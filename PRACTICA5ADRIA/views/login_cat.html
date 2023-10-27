@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inici d'usuari</title>
+</head>
+<body>
+    <form method="POST" action="user_cat.php">
+        <h1>Iniciar sessió de l'usuari</h1>
+        <label for="inputEmail">Email</label>
+        <input type="email" placeholder="Email" name="mail"><br>
+        <label for="inputPassword">Contrassenya</label>
+        <input type="password" placeholder="Contrassenya" name="pwd">
+        <div>
+          <label>
+            <input type="checkbox" value="remember-me"> Recorda'm
+          </label>
+        </div>
+        <button type="submit" name="send">Enviar</button><br>
+        <a href="form_cat.html" rel="html">Crear usuari</a><br>
+        <a href="../idioma.php">Idioma</a><br>
+        <a href="../borraCookie.php">Esborra cookie</a>
+      </form>
+</body>
+</html>
