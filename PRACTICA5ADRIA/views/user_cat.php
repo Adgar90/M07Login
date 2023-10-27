@@ -17,13 +17,14 @@
             echo "congom: ".$user["surname"]."<br>";
             echo "email: ".$user["email"]."</strong></p>";
         }
+        echo '<a href="../idioma.php">Idioma</a><br>';
+        echo '<a href="../borraCookie.php">Esborrar cookie</a>';
     } else {
         include("login_cat.html"); 
         echo "Login incorrecte<br>";
     }
     
-    echo '<a href="../idioma.php">Idioma</a><br>';
-    echo '<a href="../borraCookie.php">Esborrar cookie</a>';
+    
 
     function selectAll() {
         include("../conn/db_connection.php");

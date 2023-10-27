@@ -17,13 +17,14 @@
             echo "surname: ".$user["surname"]."<br>";
             echo "email: ".$user["email"]."</strong></p>";
         }
+        echo '<a href="../idioma.php">Language</a><br>';
+        echo '<a href="../borraCookie.php">Delete cookie</a>';
     } else {
         include("login_en.html"); 
         echo "Wrong login<br>";
     }
     
-    echo '<a href="../idioma.php">Language</a><br>';
-    echo '<a href="../borraCookie.php">Delete cookie</a>';
+    
 
     function selectAll() {
         include("../conn/db_connection.php");
