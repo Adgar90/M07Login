@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<body>
+
+    <h1> User login  </h1>
+    <form action="usuariEN.php" method="POST"> <!-- obrim formulari i passem el mètoda donat, post perque estem fent ús de dades sensibles-->
+    <div>
+        <label>Email</label>
+        <input type="text" name="email" placeholder="Insert your e-mail" required>
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="text" name="passwd" placeholder="Insert your password" required>
+    </div>
+    <div>
+        <label>Remember me </label>
+        <input type="checkbox" name="active">
+    </div>
+    <div>
+        <button type="submit" name="send">Send</button>
+    </div>
+    <div>
+        <a href="formEN.html"> Create user </a>
+    </div>
+    </form>
+    <div>
+        <a href="eliminar_Cookie.php"> Delete cookie </a><br>
+        <a href="index.php"> Go back to the language selector</a>
+    </div>
+</body>
+</html>
