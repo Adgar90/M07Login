@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA 5 FORMS CON PHPMYADMIN</title>
+</head>
+<body>
+    <form action="formES.php" method="POST">
+        <div>
+            <label>ID</label>
+            <input type="text" name="id">
+        </div>
+        <div>
+            <label>NOMBRE</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>APELLIDO</label>
+            <input type="text" name="surname">
+        </div>
+        <div>
+            <label>
+                <select name="ROL">
+                    <option value="Professorat">Profesorado</option>
+                    <option value="Alumnat">Alumnado</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Contraseña</label>
+            <input type="text" name="passwd">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <label for="active">Activo</label>
+            <input type="checkbox" name="active">
+        </div>
+        <div>
+            <button type="submit" name="send">ENVIAR</button>
+        </div>
+    </form>
+    <div>
+        <a href="loginES.html"> Iniciar sessión usuario </a>
+    </div>
+    <div>
+        <a href="eliminar_Cookie.php"> Eliminar cookie </a><br>
+        <a href="index.php"> Volver a la seleccion de idioma</a>
+    </div>
+</body>
+</html>
