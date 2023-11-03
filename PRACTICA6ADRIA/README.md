@@ -11,3 +11,5 @@ L’activitat tindrà 3 views (Login, registre usuari i mostra de dades). Les qu
 També tindrà arxiu d’autenticació (php) i per eliminar la session. Per tant, cada vista (menys el login) ha de tindre un enllaç per eliminar la Session. Un cop eliminada la session, caldrà anar a Login.
 
 La pàgina registra usuaris només la tindreu per si voleu afegir usuaris per a fer proves.
+
+[video_practica_6](https://drive.google.com/file/d/1eyO7dmvtSVctA76b3by6t98Dx6MhqdCK/view?usp=sharing)
