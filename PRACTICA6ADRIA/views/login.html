@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login user</title>
+</head>
+<body>
+    <form method="POST" action="usuari.php">
+        <h1>Iniciar sessió de l'usuari</h1>
+        <label for="inputEmail">Email</label>
+        <input type="email" placeholder="Email" name="mail" required><br>
+        <label for="inputPassword">Contrassenya</label>
+        <input type="password" placeholder="Password" name="pwd" required>
+        <div>
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button type="submit" name="env">Enviar</button><br>
+        <a href="index.html" rel="html">Crear usuari</a><br>
+      </form>
+</body>
+</html>
